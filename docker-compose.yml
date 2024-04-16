@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+    karate-test-Restful-Booker:
+        image: maven:3.6.3-jdk-11
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        volumes:
+            - ./target:/usr/src/app/target
+            - ./inputData:/usr/src/app/inputData
+            - ~/.m2:/root/.m2
+        environment:
+            ENV: ${ENV_RESTFUL_BOOKER}
+        command: mvn test -Dtest=RestfulBookerTest -Dkarate.env=${ENV_RESTFUL_BOOKER}
