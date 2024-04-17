@@ -2,9 +2,10 @@
 ##**Karate DSL - Restful Booker**
 
 ##**Documentación:**
-    *[Plan de Pruebas](Documentación/PlanDePruebas_RetoKarate.xlsx)
-    *[Documentación técnica](Documentación/HerramientasTecnicas_RetoKarate.docx)
-    *[Script en Postman](Documentación/restful-booker.postman_collection.json)
+
+  * [Plan de Pruebas](Documentación/PlanDePruebas_RetoKarate.xlsx)
+  * [Documentación técnica](Documentación/HerramientasTecnicas_RetoKarate.docx)
+  * [Script en Postman](Documentación/restful-booker.postman_collection.json)
 
 ##**Run tests with Maven:**
 
